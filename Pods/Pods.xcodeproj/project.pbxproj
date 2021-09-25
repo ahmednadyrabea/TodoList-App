@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6CD3FF9A106CD14D8252489E7A98D2 /* Constant+Windless.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5462FDCBC6E0EAE151586F1299CD554 /* Constant+Windless.swift */; };
+		1A7B84BCE56946F5CB4BDD1D36B254B5 /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA16BA676D4A8DCCBD242FC53A61272 /* DGElasticPullToRefreshView.swift */; };
+		1CA3E1404F8E2B411B8136CFD762C190 /* UIView+Windless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0096C3A7A14ED8B916A4DB9A873D7DD8 /* UIView+Windless.swift */; };
+		2BFB75555FF7DBAB1FCE350A5DF5E736 /* WindlessContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72598C83EAB6273A1E796DE09FD22CBC /* WindlessContext.swift */; };
+		3BFA0227C377D6532178F97825DCECF7 /* Windless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF55E3C43AC9AB8563394A7EE53F35 /* Windless.swift */; };
+		3ED89D9D348171A596FC6F3C7D11DA04 /* DGElasticPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6A26B8E0FF25E1EE4CCCB5E63D12C2 /* DGElasticPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC26C35FC43687DB4FABCAFECB86D1E /* WindlessLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5698CD66252A0DF4D90386A0FF0EF3 /* WindlessLayer.swift */; };
+		5464511DF6B72E89186C13A602F40EDD /* WindlessConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3A7C6E605DED95C80919AE1D37EFDC /* WindlessConfiguration.swift */; };
+		58AFAEE6F5D2BCA8C9B645A0D4C87F42 /* WindlessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0600D7E8BDF5C38ECACB510069CF38 /* WindlessOptions.swift */; };
+		5995303CD20C6888F3AF1285A09C536A /* Windless-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E2C472CC0EEEA2BD0C2D71FEE051B9 /* Windless-dummy.m */; };
+		5E047BE65B894CAE419372BC610E0A4B /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D72350E2444E233C4E13E2CEE783147 /* DGElasticPullToRefreshLoadingView.swift */; };
+		666A65ACBEE5641EF208E55FEDC50EC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		7EE906F95E9D1397613D692D4E1452C8 /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628B582C1686D2B32D7699636D030F9 /* DGElasticPullToRefreshExtensions.swift */; };
+		80C1F56D8C75397CFDAE4B997B4B5D37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8224CB6A9E068916F2812098B10E25E5 /* TransitionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1374A278470A202E9EE0A2760A45021B /* TransitionFactory.swift */; };
+		86A9A93CACE01CE80EBC4B09713AB764 /* MultipleLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44FC4120FC8F518C3C34236576DB6C /* MultipleLines.swift */; };
+		898F2E2F0EF0EF1848849DC50B005405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		94A5C9F5277113DBC033743303AD3917 /* Maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEED026CC6B158446E212AA3B725A6B /* Maker.swift */; };
+		9AC912691982C4E4566944BE8AFEAADA /* Windless-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CA65E94FDA9A026806723E46157BCC /* Windless-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE5949437F934E941678746483B54C9 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FAA598E56A5E999E921C65920644A8 /* AnimationFactory.swift */; };
+		B22D60C72E704A5090EB25249F4FA972 /* Pods-ToDoListApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D0EA5279AD145E712554E785920F3D /* Pods-ToDoListApp-dummy.m */; };
+		B7140499A4570520EBCA2E88437941B4 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AED674EE6423733C70EB6068766535 /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		D6D60FC9477E61FAFC6177FC32B92258 /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669665DEB06554FFC034A0AB6E15893E /* DGElasticPullToRefreshConstants.swift */; };
+		E1E8DB62F58E026F39B122ABE7AC3A8D /* Pods-ToDoListApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B21DE633412DBD31F71EA841D06B5F /* Pods-ToDoListApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F29BF5F594498757B35A9AE1E3150636 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		F3EBB49886A5888B27F189A60C78AF4F /* CAMediaTimingFunction+Windless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002002108828CAB683B349258153E49 /* CAMediaTimingFunction+Windless.swift */; };
+		FEBC83E1CECB40B3D94850065BB27F9D /* DGElasticPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CFDFFAA9D3EC80474F873BC2F6B102 /* DGElasticPullToRefresh-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21A94D31C51AF26D71BE74780A03F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 463FDF7470C2DA48B007EC29BC2739EB;
+			remoteInfo = Windless;
+		};
+		E4BFD04B1DD86D7EC709F42348DFE3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E69E17BC14304B0DBD2B7DB2FA487267;
+			remoteInfo = DGElasticPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0096C3A7A14ED8B916A4DB9A873D7DD8 /* UIView+Windless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Windless.swift"; path = "Sources/UIView+Windless.swift"; sourceTree = "<group>"; };
+		096886F66F89B1826CB65E7D79795AC0 /* Pods-ToDoListApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoListApp-frameworks.sh"; sourceTree = "<group>"; };
+		0989B66A5E43BD73F2C2E84D88BB27AF /* Pods_ToDoListApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDoListApp.framework; path = "Pods-ToDoListApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBF55E3C43AC9AB8563394A7EE53F35 /* Windless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Windless.swift; path = Sources/Windless.swift; sourceTree = "<group>"; };
+		1002002108828CAB683B349258153E49 /* CAMediaTimingFunction+Windless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Windless.swift"; path = "Sources/CAMediaTimingFunction+Windless.swift"; sourceTree = "<group>"; };
+		1374A278470A202E9EE0A2760A45021B /* TransitionFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionFactory.swift; path = Sources/TransitionFactory.swift; sourceTree = "<group>"; };
+		14B1BD73F8F7C936C69BC3F75410E75E /* Pods-ToDoListApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListApp.release.xcconfig"; sourceTree = "<group>"; };
+		1DEED026CC6B158446E212AA3B725A6B /* Maker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Maker.swift; path = Sources/Maker.swift; sourceTree = "<group>"; };
+		22CA65E94FDA9A026806723E46157BCC /* Windless-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Windless-umbrella.h"; sourceTree = "<group>"; };
+		24D0EA5279AD145E712554E785920F3D /* Pods-ToDoListApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoListApp-dummy.m"; sourceTree = "<group>"; };
+		29CFDFFAA9D3EC80474F873BC2F6B102 /* DGElasticPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DGElasticPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		29ECE33FD71DDD96DE2EA52AC5F3F84F /* Windless.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Windless.modulemap; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		33AED674EE6423733C70EB6068766535 /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingViewCircle.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		368E609A500E33ED1142AAF6AD0CC58E /* DGElasticPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DGElasticPullToRefresh.framework; path = DGElasticPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AA16BA676D4A8DCCBD242FC53A61272 /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		41FAA598E56A5E999E921C65920644A8 /* AnimationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationFactory.swift; path = Sources/AnimationFactory.swift; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		475D8B29BBE9952D149D34CA517EF097 /* DGElasticPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DGElasticPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		4D72350E2444E233C4E13E2CEE783147 /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshLoadingView.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		4EC95FF53E3C8A554CCFC17035147628 /* Pods-ToDoListApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoListApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51B21DE633412DBD31F71EA841D06B5F /* Pods-ToDoListApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoListApp-umbrella.h"; sourceTree = "<group>"; };
+		5CDA77A94FB01F860E10D1541CBF4637 /* Windless-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Windless-Info.plist"; sourceTree = "<group>"; };
+		5EE8B860D46D2C38DD9B7D9248F77D7C /* Pods-ToDoListApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToDoListApp.modulemap"; sourceTree = "<group>"; };
+		66306E4B6CA75BDB9B2900837D21924A /* DGElasticPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DGElasticPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		669665DEB06554FFC034A0AB6E15893E /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshConstants.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		6B52A36E4BE47DEE3B66E4075549DCBB /* Windless-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Windless-prefix.pch"; sourceTree = "<group>"; };
+		72598C83EAB6273A1E796DE09FD22CBC /* WindlessContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindlessContext.swift; path = Sources/WindlessContext.swift; sourceTree = "<group>"; };
+		7B3A7C6E605DED95C80919AE1D37EFDC /* WindlessConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindlessConfiguration.swift; path = Sources/WindlessConfiguration.swift; sourceTree = "<group>"; };
+		8A5698CD66252A0DF4D90386A0FF0EF3 /* WindlessLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindlessLayer.swift; path = Sources/WindlessLayer.swift; sourceTree = "<group>"; };
+		8B44FC4120FC8F518C3C34236576DB6C /* MultipleLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleLines.swift; path = Sources/MultipleLines.swift; sourceTree = "<group>"; };
+		9628B582C1686D2B32D7699636D030F9 /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DGElasticPullToRefreshExtensions.swift; path = DGElasticPullToRefresh/DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2E2C472CC0EEEA2BD0C2D71FEE051B9 /* Windless-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Windless-dummy.m"; sourceTree = "<group>"; };
+		D5462FDCBC6E0EAE151586F1299CD554 /* Constant+Windless.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constant+Windless.swift"; path = "Sources/Constant+Windless.swift"; sourceTree = "<group>"; };
+		DA6A26B8E0FF25E1EE4CCCB5E63D12C2 /* DGElasticPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		DC4E5A2812392C0D5928FA59D600201F /* Pods-ToDoListApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoListApp-Info.plist"; sourceTree = "<group>"; };
+		DD4E36B768B114F154EE7E4794A48762 /* Pods-ToDoListApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoListApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C003ECFBFE96511F36C3280B5EDF8D /* DGElasticPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DGElasticPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		E75DA7E577E7E4E06929C6F304C176C0 /* Pods-ToDoListApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoListApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E94583145AA45CD2F551B6E0A541232B /* DGElasticPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DGElasticPullToRefresh.modulemap; sourceTree = "<group>"; };
+		FB0600D7E8BDF5C38ECACB510069CF38 /* WindlessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindlessOptions.swift; path = Sources/WindlessOptions.swift; sourceTree = "<group>"; };
+		FC1D246FBF6CF0961B8395F5A4D46965 /* Windless.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Windless.xcconfig; sourceTree = "<group>"; };
+		FF04558F3FD287EC268A8127E33E6E31 /* Windless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Windless.framework; path = Windless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D4C96E26841DF6D6BD29EEB8CEAE29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898F2E2F0EF0EF1848849DC50B005405 /* Foundation.framework in Frameworks */,
+				666A65ACBEE5641EF208E55FEDC50EC1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812BA500F3D3D3D542F45CCBD793A291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C1F56D8C75397CFDAE4B997B4B5D37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B43719A96B70FF43AF376065FE37A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29BF5F594498757B35A9AE1E3150636 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A9CE90084887F14DEC430939C9265BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94583145AA45CD2F551B6E0A541232B /* DGElasticPullToRefresh.modulemap */,
+				66306E4B6CA75BDB9B2900837D21924A /* DGElasticPullToRefresh.xcconfig */,
+				29CFDFFAA9D3EC80474F873BC2F6B102 /* DGElasticPullToRefresh-dummy.m */,
+				475D8B29BBE9952D149D34CA517EF097 /* DGElasticPullToRefresh-Info.plist */,
+				E4C003ECFBFE96511F36C3280B5EDF8D /* DGElasticPullToRefresh-prefix.pch */,
+				DA6A26B8E0FF25E1EE4CCCB5E63D12C2 /* DGElasticPullToRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DGElasticPullToRefresh";
+			sourceTree = "<group>";
+		};
+		4B14A1C9F10356F3B9ABE8A045934C37 /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				669665DEB06554FFC034A0AB6E15893E /* DGElasticPullToRefreshConstants.swift */,
+				9628B582C1686D2B32D7699636D030F9 /* DGElasticPullToRefreshExtensions.swift */,
+				4D72350E2444E233C4E13E2CEE783147 /* DGElasticPullToRefreshLoadingView.swift */,
+				33AED674EE6423733C70EB6068766535 /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				3AA16BA676D4A8DCCBD242FC53A61272 /* DGElasticPullToRefreshView.swift */,
+				2A9CE90084887F14DEC430939C9265BC /* Support Files */,
+			);
+			name = DGElasticPullToRefresh;
+			path = DGElasticPullToRefresh;
+			sourceTree = "<group>";
+		};
+		6723AF5ECCD176EC073090BE1B743535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368E609A500E33ED1142AAF6AD0CC58E /* DGElasticPullToRefresh.framework */,
+				0989B66A5E43BD73F2C2E84D88BB27AF /* Pods_ToDoListApp.framework */,
+				FF04558F3FD287EC268A8127E33E6E31 /* Windless.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9775B574ED11BDD840B4DB1BAEBBF6 /* Pods-ToDoListApp */ = {
+			isa = PBXGroup;
+			children = (
+				5EE8B860D46D2C38DD9B7D9248F77D7C /* Pods-ToDoListApp.modulemap */,
+				4EC95FF53E3C8A554CCFC17035147628 /* Pods-ToDoListApp-acknowledgements.markdown */,
+				E75DA7E577E7E4E06929C6F304C176C0 /* Pods-ToDoListApp-acknowledgements.plist */,
+				24D0EA5279AD145E712554E785920F3D /* Pods-ToDoListApp-dummy.m */,
+				096886F66F89B1826CB65E7D79795AC0 /* Pods-ToDoListApp-frameworks.sh */,
+				DC4E5A2812392C0D5928FA59D600201F /* Pods-ToDoListApp-Info.plist */,
+				51B21DE633412DBD31F71EA841D06B5F /* Pods-ToDoListApp-umbrella.h */,
+				DD4E36B768B114F154EE7E4794A48762 /* Pods-ToDoListApp.debug.xcconfig */,
+				14B1BD73F8F7C936C69BC3F75410E75E /* Pods-ToDoListApp.release.xcconfig */,
+			);
+			name = "Pods-ToDoListApp";
+			path = "Target Support Files/Pods-ToDoListApp";
+			sourceTree = "<group>";
+		};
+		76A5C7E8519589E1C1616C81915245EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29ECE33FD71DDD96DE2EA52AC5F3F84F /* Windless.modulemap */,
+				FC1D246FBF6CF0961B8395F5A4D46965 /* Windless.xcconfig */,
+				B2E2C472CC0EEEA2BD0C2D71FEE051B9 /* Windless-dummy.m */,
+				5CDA77A94FB01F860E10D1541CBF4637 /* Windless-Info.plist */,
+				6B52A36E4BE47DEE3B66E4075549DCBB /* Windless-prefix.pch */,
+				22CA65E94FDA9A026806723E46157BCC /* Windless-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Windless";
+			sourceTree = "<group>";
+		};
+		7E1F58F120DD086E6DA9FA88966BF11C /* Windless */ = {
+			isa = PBXGroup;
+			children = (
+				41FAA598E56A5E999E921C65920644A8 /* AnimationFactory.swift */,
+				1002002108828CAB683B349258153E49 /* CAMediaTimingFunction+Windless.swift */,
+				D5462FDCBC6E0EAE151586F1299CD554 /* Constant+Windless.swift */,
+				1DEED026CC6B158446E212AA3B725A6B /* Maker.swift */,
+				8B44FC4120FC8F518C3C34236576DB6C /* MultipleLines.swift */,
+				1374A278470A202E9EE0A2760A45021B /* TransitionFactory.swift */,
+				0096C3A7A14ED8B916A4DB9A873D7DD8 /* UIView+Windless.swift */,
+				0CBF55E3C43AC9AB8563394A7EE53F35 /* Windless.swift */,
+				7B3A7C6E605DED95C80919AE1D37EFDC /* WindlessConfiguration.swift */,
+				72598C83EAB6273A1E796DE09FD22CBC /* WindlessContext.swift */,
+				8A5698CD66252A0DF4D90386A0FF0EF3 /* WindlessLayer.swift */,
+				FB0600D7E8BDF5C38ECACB510069CF38 /* WindlessOptions.swift */,
+				76A5C7E8519589E1C1616C81915245EA /* Support Files */,
+			);
+			name = Windless;
+			path = Windless;
+			sourceTree = "<group>";
+		};
+		95B3D0B67480E2CBFF8801AB2B5919AF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C9775B574ED11BDD840B4DB1BAEBBF6 /* Pods-ToDoListApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C96E83CC56AD728206C8033E856E6693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B14A1C9F10356F3B9ABE8A045934C37 /* DGElasticPullToRefresh */,
+				7E1F58F120DD086E6DA9FA88966BF11C /* Windless */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C96E83CC56AD728206C8033E856E6693 /* Pods */,
+				6723AF5ECCD176EC073090BE1B743535 /* Products */,
+				95B3D0B67480E2CBFF8801AB2B5919AF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C639821EC3C428B155ACB23F000FA16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED89D9D348171A596FC6F3C7D11DA04 /* DGElasticPullToRefresh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F813A69E8432E0D3C20A89B2C902242 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC912691982C4E4566944BE8AFEAADA /* Windless-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9479E91F7994642AA5CE5F03103FC079 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E8DB62F58E026F39B122ABE7AC3A8D /* Pods-ToDoListApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		463FDF7470C2DA48B007EC29BC2739EB /* Windless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F33FEE471F15DA7E4D5E626F76F226C6 /* Build configuration list for PBXNativeTarget "Windless" */;
+			buildPhases = (
+				7F813A69E8432E0D3C20A89B2C902242 /* Headers */,
+				60574337582ED494CC50B83B021D8B34 /* Sources */,
+				A0B43719A96B70FF43AF376065FE37A9 /* Frameworks */,
+				111424A251029D0E3277217FD04AAA3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Windless;
+			productName = Windless;
+			productReference = FF04558F3FD287EC268A8127E33E6E31 /* Windless.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC5EAB9DCAF0705AF4A286837EFAA126 /* Pods-ToDoListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7565747129D46ADFF8CD0072C05BB82 /* Build configuration list for PBXNativeTarget "Pods-ToDoListApp" */;
+			buildPhases = (
+				9479E91F7994642AA5CE5F03103FC079 /* Headers */,
+				0DC9C9AA473B5AEC7D38EB2B0E5067E2 /* Sources */,
+				812BA500F3D3D3D542F45CCBD793A291 /* Frameworks */,
+				5100CDBFE5E4C3FBCDE46B63B7A83DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208645A17E851952B8B2BB53DC4D3FD1 /* PBXTargetDependency */,
+				D3CAF553217153E9957A4A75098926FB /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDoListApp";
+			productName = "Pods-ToDoListApp";
+			productReference = 0989B66A5E43BD73F2C2E84D88BB27AF /* Pods_ToDoListApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E69E17BC14304B0DBD2B7DB2FA487267 /* DGElasticPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2677256BC56A63EBBFD84E09E6194CC6 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */;
+			buildPhases = (
+				7C639821EC3C428B155ACB23F000FA16 /* Headers */,
+				70729D394AAD27FCC2F3F3A7B581F785 /* Sources */,
+				55D4C96E26841DF6D6BD29EEB8CEAE29 /* Frameworks */,
+				2D11E3AFEBC6A472CEAF4111E407CE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DGElasticPullToRefresh;
+			productName = DGElasticPullToRefresh;
+			productReference = 368E609A500E33ED1142AAF6AD0CC58E /* DGElasticPullToRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6723AF5ECCD176EC073090BE1B743535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E69E17BC14304B0DBD2B7DB2FA487267 /* DGElasticPullToRefresh */,
+				AC5EAB9DCAF0705AF4A286837EFAA126 /* Pods-ToDoListApp */,
+				463FDF7470C2DA48B007EC29BC2739EB /* Windless */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		111424A251029D0E3277217FD04AAA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D11E3AFEBC6A472CEAF4111E407CE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5100CDBFE5E4C3FBCDE46B63B7A83DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DC9C9AA473B5AEC7D38EB2B0E5067E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22D60C72E704A5090EB25249F4FA972 /* Pods-ToDoListApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60574337582ED494CC50B83B021D8B34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE5949437F934E941678746483B54C9 /* AnimationFactory.swift in Sources */,
+				F3EBB49886A5888B27F189A60C78AF4F /* CAMediaTimingFunction+Windless.swift in Sources */,
+				1A6CD3FF9A106CD14D8252489E7A98D2 /* Constant+Windless.swift in Sources */,
+				94A5C9F5277113DBC033743303AD3917 /* Maker.swift in Sources */,
+				86A9A93CACE01CE80EBC4B09713AB764 /* MultipleLines.swift in Sources */,
+				8224CB6A9E068916F2812098B10E25E5 /* TransitionFactory.swift in Sources */,
+				1CA3E1404F8E2B411B8136CFD762C190 /* UIView+Windless.swift in Sources */,
+				5995303CD20C6888F3AF1285A09C536A /* Windless-dummy.m in Sources */,
+				3BFA0227C377D6532178F97825DCECF7 /* Windless.swift in Sources */,
+				5464511DF6B72E89186C13A602F40EDD /* WindlessConfiguration.swift in Sources */,
+				2BFB75555FF7DBAB1FCE350A5DF5E736 /* WindlessContext.swift in Sources */,
+				4FC26C35FC43687DB4FABCAFECB86D1E /* WindlessLayer.swift in Sources */,
+				58AFAEE6F5D2BCA8C9B645A0D4C87F42 /* WindlessOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70729D394AAD27FCC2F3F3A7B581F785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBC83E1CECB40B3D94850065BB27F9D /* DGElasticPullToRefresh-dummy.m in Sources */,
+				D6D60FC9477E61FAFC6177FC32B92258 /* DGElasticPullToRefreshConstants.swift in Sources */,
+				7EE906F95E9D1397613D692D4E1452C8 /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				5E047BE65B894CAE419372BC610E0A4B /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				B7140499A4570520EBCA2E88437941B4 /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				1A7B84BCE56946F5CB4BDD1D36B254B5 /* DGElasticPullToRefreshView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208645A17E851952B8B2BB53DC4D3FD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DGElasticPullToRefresh;
+			target = E69E17BC14304B0DBD2B7DB2FA487267 /* DGElasticPullToRefresh */;
+			targetProxy = E4BFD04B1DD86D7EC709F42348DFE3DB /* PBXContainerItemProxy */;
+		};
+		D3CAF553217153E9957A4A75098926FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Windless;
+			target = 463FDF7470C2DA48B007EC29BC2739EB /* Windless */;
+			targetProxy = D21A94D31C51AF26D71BE74780A03F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30DCA349C516446CC5B79F7900D32A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4E36B768B114F154EE7E4794A48762 /* Pods-ToDoListApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListApp/Pods-ToDoListApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListApp/Pods-ToDoListApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		377EBDA7B2F55113125A1CAA5D7AD710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B1BD73F8F7C936C69BC3F75410E75E /* Pods-ToDoListApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoListApp/Pods-ToDoListApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoListApp/Pods-ToDoListApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7B110F4B429DA01D551527B7D703692A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66306E4B6CA75BDB9B2900837D21924A /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = DGElasticPullToRefresh;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD6D0AC96CFE17244171F8FCC3DD6053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1D246FBF6CF0961B8395F5A4D46965 /* Windless.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Windless/Windless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Windless/Windless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Windless/Windless.modulemap";
+				PRODUCT_MODULE_NAME = Windless;
+				PRODUCT_NAME = Windless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC20BA25A3868D6E25D6A8E1E3975E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66306E4B6CA75BDB9B2900837D21924A /* DGElasticPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DGElasticPullToRefresh/DGElasticPullToRefresh.modulemap";
+				PRODUCT_MODULE_NAME = DGElasticPullToRefresh;
+				PRODUCT_NAME = DGElasticPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E35AAD0F2545C9643E9E94B720B72B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1D246FBF6CF0961B8395F5A4D46965 /* Windless.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Windless/Windless-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Windless/Windless-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Windless/Windless.modulemap";
+				PRODUCT_MODULE_NAME = Windless;
+				PRODUCT_NAME = Windless;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2677256BC56A63EBBFD84E09E6194CC6 /* Build configuration list for PBXNativeTarget "DGElasticPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC20BA25A3868D6E25D6A8E1E3975E94 /* Debug */,
+				7B110F4B429DA01D551527B7D703692A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F33FEE471F15DA7E4D5E626F76F226C6 /* Build configuration list for PBXNativeTarget "Windless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35AAD0F2545C9643E9E94B720B72B6D /* Debug */,
+				AD6D0AC96CFE17244171F8FCC3DD6053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7565747129D46ADFF8CD0072C05BB82 /* Build configuration list for PBXNativeTarget "Pods-ToDoListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30DCA349C516446CC5B79F7900D32A7A /* Debug */,
+				377EBDA7B2F55113125A1CAA5D7AD710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

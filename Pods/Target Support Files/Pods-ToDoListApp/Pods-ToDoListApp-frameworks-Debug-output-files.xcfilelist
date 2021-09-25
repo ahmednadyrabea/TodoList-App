@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGElasticPullToRefresh.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Windless.framework

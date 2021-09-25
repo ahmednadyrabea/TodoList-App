@@ -1,0 +1,20 @@
+PODS:
+  - DGElasticPullToRefresh (1.1)
+  - Windless (0.1.5)
+
+DEPENDENCIES:
+  - DGElasticPullToRefresh
+  - Windless (~> 0.1.5)
+
+SPEC REPOS:
+  trunk:
+    - DGElasticPullToRefresh
+    - Windless
+
+SPEC CHECKSUMS:
+  DGElasticPullToRefresh: 28f11a6026302a90f8ffebbc6e24748e584dddd3
+  Windless: c6b7d63ac3a0c7e6b241e316650d4605abf71894
+
+PODFILE CHECKSUM: d379a8e7c7600f55b8a7e7e8a8922e5b54303c49
+
+COCOAPODS: 1.8.4
